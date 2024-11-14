@@ -1,10 +1,11 @@
 <template>
     <Page>
-        <ActionBar>
-            <Label text="Home"/>
-        </ActionBar>
-
-        <GridLayout>
+        <GridLayout style="
+            background-size: contain;
+            background-repeat:no-repeat;
+            background-position: bottom;
+            background-image:url('~/images/logo.png');
+        ">
             <Label class="info">
                 <FormattedString>
                     <Span class="fas" text.decode="&#xf135; "/>
